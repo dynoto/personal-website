@@ -1,0 +1,31 @@
+{% load url from future %}
+<html>
+<head>
+	<title>{% block page_title %}Mysterio - Home{% endblock page_title %}</title>
+	{% comment %}
+		LOAD CSS HERE
+	{% endcomment %}
+	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/bootmetro.css">
+	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/bootstrap-responsive.css">
+	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/bootmetro-tiles.css">
+	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/bootmetro-charms.css">
+	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/metro-ui-light.css">
+</head>
+<body>
+	{% block main_content %}
+	{% endblock main_content %}
+
+	{% comment %}
+		LOAD JAVASCRIPT HERE
+	{% endcomment %}
+	<h1>{{ STATIC_URL }}</h1>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript" src="{{ STATIC_URL }}js/jquery.mousewheel.js "></script>
+	<script type="text/javascript" src="{{ STATIC_URL }}js/jquery.scrollTo.js "></script>
+	<script type="text/javascript" src="{{ STATIC_URL }}js/bootstrap.min.js "></script>
+	<script type="text/javascript" src="{{ STATIC_URL }}js/bootmetro.js "></script>
+	<script type="text/javascript" src="{{ STATIC_URL }}js/bootmetro-charms.js "></script>
+
+</body>
+</html>
