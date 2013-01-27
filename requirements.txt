@@ -1,1 +1,4 @@
 django==1.4
+django-grappelli==2.4.3
+south==0.7.6
+django-tastypie==0.9.11

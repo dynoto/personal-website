@@ -1,32 +1,73 @@
 {% load staticfiles %}
 {% load url from future %}
-<html>
+<html ng-app="codezero">
 <head>
-	<title>{% block page_title %}Mysterio - Home{% endblock page_title %}</title>
+	<meta name="viewport" content="width=device-width" />
+	<meta name="google-site-verification" content="ku1rolTmITGzkhkMlaY9qZjNN31vRHyZY1aRORX8Kfk" />
+	<title>Code0 (Code Zero) - {% block page_title %}Home{% endblock page_title %} | David Tjokroaminoto, Web developer in Melbourne, Australia</title>
+	<meta name="description" content="
+
+	Hi! I'm David Tjokroaminoto, Web developer. I have expertise in both front-end and back-end developing.
+	My skills including PHP, HTML, CSS, Python, and Javascript.
+	">
 	{% comment %}
 		LOAD CSS HERE
 	{% endcomment %}
-        <link rel="stylesheet" type="text/css" href="{% static 'css/bootmetro.css' %}">
-        <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap-responsive.css' %}">
-        <link rel="stylesheet" type="text/css" href="{% static 'css/bootmetro-tiles.css' %}">
-        <link rel="stylesheet" type="text/css" href="{% static 'css/bootmetro-charms.css' %}">
-        <link rel="stylesheet" type="text/css" href="{% static 'css/metro-ui-light.css' %}">
+	<link href='http://fonts.googleapis.com/css?family=News+Cycle|Pontano+Sans|Comfortaa:400,700' rel='stylesheet' type='text/css'>
+
+
+	<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.0/themes/base/jquery-ui.css">
+	{# <link rel="stylesheet" type="text/css" href="/static/foundation/css/foundation.min.css"> #}
+	<link rel="stylesheet" type="text/css" href="/static/foundation/css/foundation.top-bar.css">
+	<link rel="stylesheet" type="text/css" href="/static/foundation/css/presentation.css">
+	<link rel="stylesheet" type="text/css" href="/static/foundation/css/app.css">
+	<link rel="stylesheet" type="text/css" href="/static/foundation/icons/social/stylesheets/social_foundicons.css">
+	<link rel="stylesheet" type="text/css" href="/static/foundation/icons/general/stylesheets/general_foundicons.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/layout.css">
+	{% block css %}
+	{% endblock css %}
+
+	<script type="text/javascript" src="/static/foundation/js/modernizr.foundation.js"></script>
 </head>
-<body>
-	{% block main_content %}
-	{% endblock main_content %}
+<body class="pontanosans">
+	{% include "common/navigation.html" %}
+	<div class="two columns">
+	</div>
+{# ---------------------------------------- #}
+	<div class="eight columns">
+		{% block main_content %}
+		{% endblock main_content %}
+	</div>
+{# ---------------------------------------- #}	
+	<div class="two columns">
+	</div>
+{# ---------------------------------------- #}
+	{% block reveal_modal %}
+		
+	{% endblock reveal_modal %}
 
-	{% comment %}
-		LOAD JAVASCRIPT HERE
-	{% endcomment %}
-	<h1>{{ STATIC_URL }}</h1>
-	
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script type="text/javascript" src="{% static 'js/jquery.mousewheel.js' %} "></script>
-        <script type="text/javascript" src="{% static 'js/jquery.scrollTo.js' %} "></script>
-        <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %} "></script>
-        <script type="text/javascript" src="{% static 'js/bootmetro.js' %} "></script>
-        <script type="text/javascript" src="{% static 'js/bootmetro-charms.js' %} "></script>
+	<script type="text/javascript" src="/static/aws.js "></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.3/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.3/angular-resource.min.js"></script>
+	<script type="text/javascript" src="/static/foundation/js/foundation.min.js "></script>
+	<script type="text/javascript" src="/static/foundation/js/app.js "></script>
+	<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+	<script type="text/javascript" src="/static/js/layout.js"></script>
 
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-37895131-1']);
+		_gaq.push(['_setDomainName', 'code0.me']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+	{% block javascript %}
+	{% endblock javascript %}
 </body>
 </html>

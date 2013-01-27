@@ -3,6 +3,12 @@ from django.conf.urls import patterns, include, url
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.conf import settings
+
+
+#TASTYPIE APIS
+from photographs.api import ImageResource
+image_resource = ImageResource()
+
 admin.autodiscover()
 
 urlpatterns = patterns('',
@@ -16,7 +22,9 @@ urlpatterns = patterns('',
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
     # Uncomment the next line to enable the admin:
+    url(r'^grappelli/', include('grappelli.urls')),
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^api/', include(image_resource.urls)),
 )
 
 if settings.DEBUG:

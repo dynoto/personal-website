@@ -11,7 +11,7 @@ from photographs.models import *
 
 def index(request):
 	template = loader.get_template('photographs/index.html')
-	image_list = Image.objects.order_by('-uploaded')[:5]
+	image_list = Image.objects.order_by('-uploaded')
 	context  = Context({
 		'image_list': image_list,
 	})

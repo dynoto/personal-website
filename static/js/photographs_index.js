@@ -1,0 +1,9 @@
+$(document).ready(function(){
+	$('div.overlay_parent').hover(
+		function(){
+			$(this).children('div.overlay').stop().fadeOut(300);
+		},function(){
+			$(this).children('div.overlay').fadeIn(300);
+		}
+	);
+});

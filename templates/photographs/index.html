@@ -1,17 +1,38 @@
 {% extends "common/layout.html" %}
+
+{# ------------------------CSS HERE---------------------------- #}
+{% block css %}
+	<link rel="stylesheet" type="text/css" href="/static/css/photographs_index.css">
+{% endblock css %}
+
+{# ------------------------JAVASCRIPT HERE--------------------- #}
+{% block javascript %}
+	<SCRIPT TYPE="text/javascript" src="/static/js/photographs_index.js"></SCRIPT>
+{% endblock javascript %}
+
+{# ------------------------CONTENT HERE------------------------ #}
 {% block main_content %}
-{{ image_list }}
-{% if image_list %}
-	<ul>
-		{% for image in image_list %}
-			<li>image name is {{ image.name }}</li>
-			<li>image descrption is {{ image.description }}</li>
-			<li>uploaded on : {{ image.uploaded }}</li>
-			<li>image file : <img src="{{ image.filename.url }}"/> </li>
-			<li><a href="{% url photographs:view image.id %}">link</a></li>
-		{% endfor %}
+<div class="row display">
+	<div class="twelve columns">
+	<h1 class="comfortaa">Photographs</h1>
+	<h3><small>Beauty of what we saw ...</small></h3>
+	</div>
+</div>
+<div class="row display">
+	<div class="twelve columns">
+	<ul class="block-grid three-up">
+	{% for image in image_list %}
+		<li class="image_div">
+			<div class="overlay_parent">
+			<img src="{{ image.image_s }}">
+				<div class="overlay">
+					<p><span class="title newscycle">{{ image.name }}</span>{[{'yet'+'yet'}]}</p>
+				</div>
+			</div>
+		</li>
+	{% endfor %}
 	</ul>
-{% else %}
-	<p>No Images are available</p>
-{% endif %}
+</div>
+</div>	
+
 {% endblock main_content %}

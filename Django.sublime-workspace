@@ -4,6 +4,86 @@
 		"selected_items":
 		[
 			[
+				"script",
+				"SCRIPT	Tag"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"static",
+				"staticfiles"
+			],
+			[
+				"stat",
+				"staticfiles_urlpatterns"
+			],
+			[
+				"docum",
+				"document_root"
+			],
+			[
+				"stati",
+				"staticfiles"
+			],
+			[
+				"url",
+				"urlpatterns"
+			],
+			[
+				"django",
+				"django_tut"
+			],
+			[
+				"VAR",
+				"var"
+			],
+			[
+				"var",
+				"var	context variable (var)"
+			],
+			[
+				"na",
+				"name"
+			],
+			[
+				"image",
+				"image_list"
+			],
+			[
 				"ROO",
 				"SITE_ROOT"
 			],
@@ -104,16 +184,8 @@
 				"image_ids"
 			],
 			[
-				"image",
-				"image_id"
-			],
-			[
 				"dim",
 				"dimension_array"
-			],
-			[
-				"font",
-				"font-weight"
 			],
 			[
 				"em",
@@ -228,16 +300,8 @@
 				"div_id"
 			],
 			[
-				"max-",
-				"max-height"
-			],
-			[
 				"item",
 				"item_code"
-			],
-			[
-				"min",
-				"min_val"
 			],
 			[
 				"def",
@@ -306,10 +370,6 @@
 			[
 				"vali",
 				"validate_size"
-			],
-			[
-				"margin",
-				"margin-bottom"
 			],
 			[
 				"customer",
@@ -454,85 +514,69 @@
 			[
 				"dimension",
 				"dimension_id"
-			],
-			[
-				"reque",
-				"requestdata"
-			],
-			[
-				"for",
-				"foreach	foreach …"
-			],
-			[
-				"phone",
-				"phoneR"
-			],
-			[
-				"phon",
-				"phoneR"
-			],
-			[
-				"pho",
-				"phoneR"
-			],
-			[
-				"paddi",
-				"padding-right"
-			],
-			[
-				"p",
-				"padding"
-			],
-			[
-				"padd",
-				"padding-right"
-			],
-			[
-				"ma",
-				"margin"
-			],
-			[
-				"ima",
-				"image_list"
-			],
-			[
-				"parent",
-				"parent_label"
-			],
-			[
-				"pa",
-				"parent_label"
-			],
-			[
-				"kitche",
-				"kitchen_list"
-			],
-			[
-				"Homepa",
-				"HomepageImage"
-			],
-			[
-				"pos",
-				"position"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "photographs/views.py",
+			"settings":
+			{
+				"buffer_size": 631,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/portfolios/index.html",
+			"settings":
+			{
+				"buffer_size": 4452,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/photographs/index.html",
+			"settings":
+			{
+				"buffer_size": 538,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/common/navigation.html",
+			"settings":
+			{
+				"buffer_size": 767,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 107.0,
 		"selected_items":
 		[
 			[
-				"Snippet: foreach",
-				"Snippet: foreach …"
+				"static",
+				"Snippet: static"
+			],
+			[
+				"dja",
+				"Set Syntax: HTML (Django)"
 			],
 			[
 				"Snippet: ",
-				"Snippet: if …"
+				"Snippet: <?php … ?>"
+			],
+			[
+				"snippe",
+				"Snippet: Short Tag"
+			],
+			[
+				"Snippet: foreach",
+				"Snippet: foreach …"
 			]
 		],
 		"width": 575.0
@@ -552,22 +596,49 @@
 	},
 	"file_history":
 	[
-		"/Volumes/Files/Dropbox/Projects/django_tut/urls.py",
-		"/Volumes/Files/Dropbox/Projects/django_tut/photographs/urls.py",
-		"/Volumes/Files/Dropbox/Projects/django_tut/photographs/views.py",
-		"/Volumes/Files/Dropbox/Projects/PhoneGapProj/For Android/LPM-Android/example/assets/www/cordova-2.3.0.js",
-		"/Volumes/Files/Dropbox/Projects/django_tut/settings.py",
-		"/Volumes/Files/Dropbox/Projects/django_tut/photographs/admin.py",
+		"/Volumes/Files/Dropbox/Projects/django_tut/django_tut/urls.py",
+		"/Volumes/Files/Dropbox/Projects/django_tut/static/foundation/css/presentation.css",
+		"/Volumes/Files/Dropbox/Projects/django_tut/templates/common/layout.html",
+		"/Volumes/Files/Dropbox/Projects/django_tut/static/css/layout.css",
+		"/Volumes/Files/Dropbox/Projects/django_tut/templates/admin/500.html",
+		"/Volumes/Files/Dropbox/Projects/django_tut/templates/.admin.bak/index.html",
+		"/Volumes/Files/Dropbox/Projects/django_tut/templates/portfolios/index.html",
+		"/Volumes/Files/Dropbox/Projects/django_tut/django_tut/settings.py",
 		"/Volumes/Files/Dropbox/Projects/django_tut/photographs/models.py",
-		"/Volumes/Files/Dropbox/Projects/django_tut/manage.py",
+		"/Volumes/Files/Dropbox/Projects/django_tut/templates/admin/login.html",
+		"/Volumes/Files/Dropbox/Projects/django_tut/photographs/urls.py",
 		"/Volumes/Files/Dropbox/Projects/django_tut/templates/admin/index.html",
+		"/Volumes/Files/Dropbox/Projects/django_tut/templates/common/navigation.html",
+		"/Volumes/Files/Dropbox/Projects/django_tut/static/js/portfolios_index.js",
+		"/Volumes/Files/Dropbox/Projects/django_tut/static/css/portfolios_index.css",
+		"/Volumes/Files/Dropbox/Projects/django_tut/photographs/admin.py",
+		"/Volumes/Files/Dropbox/Projects/django_tut/portfolios/views.py",
+		"/Volumes/Files/Dropbox/Projects/django_tut/photographs/views.py",
+		"/Volumes/Files/Dropbox/Projects/django_tut/static/css/presentation.css",
+		"/Volumes/Files/Dropbox/Projects/phpinfo.php",
+		"/Volumes/Files/Dropbox/Projects/django_tut/templates/photographs/index.html",
+		"/Volumes/Files/Dropbox/Projects/django_tut/runserver.command",
+		"/Volumes/Files/Dropbox/Projects/django_tut/static/foundation/icons/social/stylesheets/social_foundicons.css",
+		"/Volumes/Files/Dropbox/Projects/django_tut/static/foundation/icons/general/stylesheets/general_foundicons.css",
+		"/Volumes/Files/Dropbox/Projects/django_tut/static/js/layout.js",
+		"/Volumes/Files/Dropbox/Projects/django_tut/static/css/foundation.top-bar.css",
+		"/Volumes/Files/Dropbox/Projects/django_tut/static/css/foundation.min.css",
+		"/Volumes/Files/Dropbox/Projects/django_tut/templates/photographs/view.html",
+		"/Volumes/Files/Dropbox/Projects/django_tut/urls.py",
+		"/Volumes/Files/Dropbox/Projects/django_tut/settings.py",
+		"/Volumes/Files/Dropbox/Projects/django_tut/django_tut/wsgi.py",
+		"/Volumes/Files/Dropbox/Projects/django_tut/portfolios/urls.py",
+		"/Volumes/Files/Dropbox/Projects/django_tut/portfolio/views.py",
+		"/Volumes/Files/Dropbox/Projects/django_tut/portfolio/urls.py",
+		"/Volumes/Files/Dropbox/Projects/django_tut/portfolios/models.py",
+		"/Volumes/Files/Dropbox/Projects/django_tut/portfolio/models.py",
+		"/Volumes/Files/Dropbox/Projects/PhoneGapProj/For Android/LPM-Android/example/assets/www/cordova-2.3.0.js",
+		"/Volumes/Files/Dropbox/Projects/django_tut/manage.py",
 		"/Volumes/Files/Dropbox/Projects/django_tut/django_tut/test.py",
 		"/Volumes/Files/Dropbox/Projects/django_tut/wsgi.py",
 		"/Volumes/Files/Dropbox/Projects/django_tut/templates/admin/base.html",
 		"/Volumes/Files/Dropbox/Projects/django_tut/templates/admin/base_site.html",
-		"/Volumes/Files/Dropbox/Projects/django_tut/django_tut/settings.py",
 		"/Volumes/Files/Dropbox/Projects/django_tut/test.py",
-		"/Volumes/Files/Dropbox/Projects/django_tut/django_tut/urls.py",
 		"/Volumes/Files/Dropbox/Projects/django_tut/.APPFOG/urls.py",
 		"/Volumes/Files/Dropbox/Projects/PhoneGapProj/www/js/xlstojson2.json",
 		"/Volumes/Files/Download/id_rsa.pub",
@@ -652,34 +723,7 @@
 		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/View/Images/add.ctp",
 		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/View/Products/add.ctp",
 		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/View/Products/index.ctp",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/webroot/css/layout.css",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/webroot/css/admins/orders.css",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/webroot/css/admins/common.css",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/Controller/ImagesController.php",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/View/Orders/index.ctp",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/View/Criterias/index.ctp",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/Controller/HomepageimagesController.php",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/View/HomepageImages/add.ctp",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/webroot/js/visitors/contact_us.js",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/webroot/js/reg_valid.js",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/Controller/EnquiriesController.php",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/Test/Case/Controller/HomepageImagesControllerTest.php",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/View/Enquiries/view.ctp",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/View/Criterias/add.ctp",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/View/RangeValues/edit.ctp",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/Controller/RangeValuesController.php",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/View/Administrators/criteria.ctp",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/View/Elements/gallery_modal.ctp",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/Controller/CriteriasController.php",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/View/Kitchens/index.ctp",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/webroot/js/admins/post_link.js",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/Controller/UsersController.php",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/Model/Kitchen.php",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/Model/Product.php",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/Model/Dimension.php",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/Controller/OrdersController.php",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/webroot/css/admins/product_add.css",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/View/Visitors/gallery.ctp"
+		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/webroot/css/layout.css"
 	],
 	"find":
 	{
@@ -698,6 +742,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".right",
+			".RIGHT",
+			"float: right",
+			".right",
+			"url ",
+			"{%",
+			"i_know",
+			"' %}",
+			"{% static '",
+			"text-me-one",
+			"media_root",
+			"wsgi",
+			"MEDIA_URL",
 			"lpm",
 			",\n",
 			"email",
@@ -812,16 +869,7 @@
 			"load",
 			"loadmodel",
 			"error-message",
-			"error",
-			"div",
-			"error",
-			"message",
-			"hspan",
-			"display:table;",
-			"display:table",
-			"height:",
-			"height",
-			"href"
+			"error"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -829,6 +877,11 @@
 		"regex": false,
 		"replace_history":
 		[
+			"i_do",
+			"",
+			"/static",
+			"",
+			"STATIC_URL",
 			" <br> ",
 			"<br/>",
 			"placement",
@@ -874,8 +927,117 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "photographs/views.py",
+					"settings":
+					{
+						"buffer_size": 631,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								599,
+								599
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "templates/portfolios/index.html",
+					"settings":
+					{
+						"buffer_size": 4452,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								61,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1449.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/photographs/index.html",
+					"settings":
+					{
+						"buffer_size": 538,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								538,
+								538
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "templates/common/navigation.html",
+					"settings":
+					{
+						"buffer_size": 767,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								767,
+								767
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -925,16 +1087,208 @@
 		"selected_items":
 		[
 			[
+				"navhtml",
+				"templates/common/navigation.html"
+			],
+			[
+				"photographsind",
+				"templates/photographs/index.html"
+			],
+			[
+				"lay",
+				"templates/common/layout.html"
+			],
+			[
+				"pres",
+				"static/foundation/css/presentation.css"
+			],
+			[
+				"portin",
+				"templates/portfolios/index.html"
+			],
+			[
+				"indexhtml",
+				"templates/.admin.bak/index.html"
+			],
+			[
+				"ind",
+				"templates/portfolios/index.html"
+			],
+			[
+				"sett",
+				"django_tut/settings.py"
+			],
+			[
+				"url",
+				"django_tut/urls.py"
+			],
+			[
+				"photomod",
+				"photographs/models.py"
+			],
+			[
+				"laycss",
+				"static/css/layout.css"
+			],
+			[
+				"html",
+				"templates/admin/login.html"
+			],
+			[
+				"photourls",
+				"photographs/urls.py"
+			],
+			[
 				"urls",
-				"urls.py"
+				"django_tut/urls.py"
+			],
+			[
+				"index",
+				"templates/admin/index.html"
+			],
+			[
+				"photview",
+				"photographs/views.py"
+			],
+			[
+				"photad",
+				"photographs/admin.py"
+			],
+			[
+				"model",
+				"photographs/models.py"
+			],
+			[
+				"photopy",
+				"photographs/views.py"
+			],
+			[
+				"portpy",
+				"portfolios/views.py"
+			],
+			[
+				"presen",
+				"static/foundation/css/presentation.css"
+			],
+			[
+				"navi",
+				"templates/common/navigation.html"
+			],
+			[
+				"prescss",
+				"static/foundation/css/presentation.css"
+			],
+			[
+				"indcss",
+				"static/css/portfolios_index.css"
+			],
+			[
+				"indjs",
+				"static/js/portfolios_index.js"
+			],
+			[
+				"presentat",
+				"static/foundation/css/presentation.css"
+			],
+			[
+				"present",
+				"static/foundation/css/presentation.css"
+			],
+			[
+				"indexcss",
+				"static/css/portfolios_index.css"
+			],
+			[
+				"naviga",
+				"templates/common/navigation.html"
+			],
+			[
+				"portht",
+				"templates/portfolios/index.html"
+			],
+			[
+				"photoht",
+				"templates/photographs/index.html"
+			],
+			[
+				"generalfondcss",
+				"static/foundation/icons/general/stylesheets/general_foundicons.css"
+			],
+			[
+				"social_found",
+				"static/foundation/icons/social/stylesheets/social_foundicons.css"
+			],
+			[
+				"layht",
+				"templates/common/layout.html"
+			],
+			[
+				"foundtop",
+				"static/css/foundation.top-bar.css"
 			],
 			[
 				"views",
+				"portfolios/views.py"
+			],
+			[
+				"view",
+				"portfolios/views.py"
+			],
+			[
+				"foundmin",
+				"static/css/foundation.min.css"
+			],
+			[
+				"portview",
+				"portfolios/views.py"
+			],
+			[
+				"nav",
+				"templates/common/navigation.html"
+			],
+			[
+				"photoadm",
+				"photographs/admin.py"
+			],
+			[
+				"photomo",
+				"photographs/models.py"
+			],
+			[
+				"portfin",
+				"templates/portfolios/index.html"
+			],
+			[
+				"photourl",
+				"photographs/urls.py"
+			],
+			[
+				"photin",
+				"templates/photographs/index.html"
+			],
+			[
+				"photv",
+				"templates/photographs/view.html"
+			],
+			[
+				"photoview",
 				"photographs/views.py"
+			],
+			[
+				"ws",
+				"django_tut/wsgi.py"
 			],
 			[
 				"setti",
 				"settings.py"
+			],
+			[
+				"comm",
+				"templates/common/layout.html"
+			],
+			[
+				"photind",
+				"templates/photographs/index.html"
 			],
 			[
 				"inde",
@@ -943,10 +1297,6 @@
 			[
 				"admin/in",
 				"templates/admin/index.html"
-			],
-			[
-				"url",
-				"urls.py"
 			],
 			[
 				"baseh",
@@ -958,14 +1308,6 @@
 			],
 			[
 				"ett",
-				"django_tut/settings.py"
-			],
-			[
-				"model",
-				"photographs/models.py"
-			],
-			[
-				"sett",
 				"django_tut/settings.py"
 			],
 			[
@@ -1011,10 +1353,6 @@
 			[
 				"vis",
 				"app/Controller/VisitorsController.php"
-			],
-			[
-				"view",
-				"app/View/Criterias/view.ctp"
 			],
 			[
 				"about",
@@ -1259,182 +1597,6 @@
 			[
 				"vistes",
 				"app/View/Visitors/testimonials.ctp"
-			],
-			[
-				"prodjs",
-				"app/webroot/js/visitors/product.js"
-			],
-			[
-				"imadd",
-				"app/View/Images/add.ctp"
-			],
-			[
-				"kitadd",
-				"app/View/Kitchens/add.ctp"
-			],
-			[
-				"prodcon",
-				"app/Controller/ProductsController.php"
-			],
-			[
-				"prodadd",
-				"app/View/Products/add.ctp"
-			],
-			[
-				"prodin",
-				"app/View/Products/index.ctp"
-			],
-			[
-				"lay",
-				"app/webroot/css/layout.css"
-			],
-			[
-				"ordcss",
-				"app/webroot/css/admins/orders.css"
-			],
-			[
-				"admicomm",
-				"app/webroot/css/admins/common.css"
-			],
-			[
-				"orderview",
-				"app/View/Orders/view.ctp"
-			],
-			[
-				"ordin",
-				"app/View/Orders/index.ctp"
-			],
-			[
-				"products",
-				"app/View/Visitors/products.ctp"
-			],
-			[
-				"kitproded",
-				"app/webroot/js/admins/kitchen_product_edit.js"
-			],
-			[
-				"imagecon",
-				"app/Controller/ImagesController.php"
-			],
-			[
-				"imageadd",
-				"app/View/Images/add.ctp"
-			],
-			[
-				"critin",
-				"app/View/Criterias/index.ctp"
-			],
-			[
-				"kitc",
-				"app/Controller/KitchensController.php"
-			],
-			[
-				"cartl",
-				"app/View/Visitors/cart_list.ctp"
-			],
-			[
-				"homeadd",
-				"app/View/HomepageImages/add.ctp"
-			],
-			[
-				"homepaadd",
-				"app/View/HomepageImages/add.ctp"
-			],
-			[
-				"hompage",
-				"app/Controller/HomepageimagesController.php"
-			],
-			[
-				"homepag",
-				"app/Test/Case/Controller/HomepageImagesControllerTest.php"
-			],
-			[
-				"reg",
-				"app/webroot/js/reg_valid.js"
-			],
-			[
-				"visconjs",
-				"app/webroot/js/visitors/contact_us.js"
-			],
-			[
-				"visconta",
-				"app/View/Visitors/contact_us.ctp"
-			],
-			[
-				"enquircon",
-				"app/Controller/EnquiriesController.php"
-			],
-			[
-				"enqview",
-				"app/View/Enquiries/view.ctp"
-			],
-			[
-				"contact",
-				"app/View/Visitors/contact_us.ctp"
-			],
-			[
-				"critadd",
-				"app/View/Criterias/add.ctp"
-			],
-			[
-				"rangvaed",
-				"app/View/RangeValues/edit.ctp"
-			],
-			[
-				"rangev",
-				"app/Controller/RangeValuesController.php"
-			],
-			[
-				"editcriteria",
-				"app/View/Administrators/criteria.ctp"
-			],
-			[
-				"laycss",
-				"app/webroot/css/layout.css"
-			],
-			[
-				"logi",
-				"app/View/Elements/login_bar.ctp"
-			],
-			[
-				"modal",
-				"app/View/Elements/gallery_modal.ctp"
-			],
-			[
-				"fillm",
-				"app/View/Kitchens/fill_missing_criteria.ctp"
-			],
-			[
-				"critcon",
-				"app/Controller/CriteriasController.php"
-			],
-			[
-				"ranged",
-				"app/View/RangeTypes/edit.ctp"
-			],
-			[
-				"rangvie",
-				"app/View/RangeTypes/view.ctp"
-			],
-			[
-				"rangty",
-				"app/Controller/RangeTypesController.php"
-			],
-			[
-				"rangted",
-				"app/View/RangeTypes/edit.ctp"
-			],
-			[
-				"rangti",
-				"app/View/RangeTypes/view.ctp"
-			],
-			[
-				"critco",
-				"app/Controller/CriteriasController.php"
-			],
-			[
-				"criteriaedit",
-				"app/View/Criterias/edit.ctp"
 			]
 		],
 		"width": 0.0

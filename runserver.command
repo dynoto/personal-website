@@ -1,2 +1,3 @@
 #!/bin/sh
-python /Volumes/Files/Dropbox/Projects/django_tut/local-manage.py runserver
+django_env
+sudo python /Volumes/Files/Dropbox/Projects/django_tut/manage.py runserver
