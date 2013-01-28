@@ -24,6 +24,15 @@ div.row.display{
 	margin-bottom: 20px;
 }
 
+select{
+	min-width: 160px;
+	border: 1px solid #E1E1E1 !important;
+	font-family: pontano sans !important;
+	font-size: 16px !important;
+	height: 30px !important;
+	padding: 3px 5px 3px 8px !important;
+}
+
 .orbit-wrapper .slider-nav span { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; -webkit-transition: opacity 400ms; -moz-transition: opacity 400ms; -o-transition: opacity 400ms; transition: opacity 400ms; }
 .orbit-wrapper:hover .slider-nav span { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100); opacity: 1; }
 #featured { background: url(spinner.gif) center center #f4f4f4; height: 300px; }

@@ -3,7 +3,10 @@
 	margin-bottom: 15px;
 	cursor: pointer;
 }
-.overlay_parent > img{
+.image_div{
+	display: none;
+}
+.overlay_parent > a > img{
 	width: 100%;
 }
 
@@ -20,5 +23,8 @@ span.title {
 	position: absolute;
 	bottom: 10%;
 	right: 10%;
+	font-size: 1.5em;
+}
+.general.foundicon-heart{
 	font-size: 1.5em;
 }

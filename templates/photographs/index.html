@@ -12,27 +12,52 @@
 
 {# ------------------------CONTENT HERE------------------------ #}
 {% block main_content %}
+<div>
+
+{# HEADER HERE #}
 <div class="row display">
 	<div class="twelve columns">
 	<h1 class="comfortaa">Photographs</h1>
 	<h3><small>Beauty of what we saw ...</small></h3>
+	<div class="right">
+		<select class="right" required="required" ng-model="orderSelected" ng-change="updateImages()" ng-options="om.value as om.name for om in orderMethod"></select>
+	</div>
 	</div>
 </div>
-<div class="row display">
+
+{# IMAGES HERE #}
+<div class="row">
 	<div class="twelve columns">
-	<ul class="block-grid three-up">
-	{% for image in image_list %}
-		<li class="image_div">
+	<ul class="block-grid three-up " id="overlay_master">
+		<li class="image_div" ng-repeat="image in images" fadey="1000">
 			<div class="overlay_parent">
-			<img src="{{ image.image_s }}">
+			<a href="#" ng-click="updateReveal($index)" data-reveal-id="reveal_modal"><img src="{[{image.image_s}]}"></a>
 				<div class="overlay">
-					<p><span class="title newscycle">{{ image.name }}</span>{[{'yet'+'yet'}]}</p>
+					<p class="general foundicon-heart right"> {[{ image.likes }]}</p>
+					<p><span class="title newscycle">{[{ image.name }]}</span></p>
 				</div>
 			</div>
 		</li>
-	{% endfor %}
 	</ul>
+	</div>
 </div>
-</div>	
+
+{# NEXT BUTTON HERE #}
+<div class="row display">
+	<div class="twelve columns">
+		<a href="#" class="right small secondary button" ng-click="moreImages()">MORE</a>
+	</div>
+</div>
+
+
+</div>
 
 {% endblock main_content %}
+
+{# ------------------------MODAL HERE------------------------ #}
+{% block reveal_modal %}
+<div id="reveal_modal" class="reveal-modal xlarge">
+	<h1>{[{ revealData.name }]}</h1>
+	<img src="{[{ revealData.image_m }]}">
+</div>	
+{% endblock reveal_modal %}

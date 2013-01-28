@@ -25,11 +25,12 @@
 	<link rel="stylesheet" type="text/css" href="/static/foundation/icons/general/stylesheets/general_foundicons.css">
 	<link rel="stylesheet" type="text/css" href="/static/css/layout.css">
 	{% block css %}
+	{# CUSTOM STYLESHEETS FROM VIEW #}
 	{% endblock css %}
 
 	<script type="text/javascript" src="/static/foundation/js/modernizr.foundation.js"></script>
 </head>
-<body class="pontanosans">
+<body class="pontanosans" ng-controller="ImageListCtrl">
 	{% include "common/navigation.html" %}
 	<div class="two columns">
 	</div>
@@ -45,8 +46,6 @@
 	{% block reveal_modal %}
 		
 	{% endblock reveal_modal %}
-
-	<script type="text/javascript" src="/static/aws.js "></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.3/angular.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.3/angular-resource.min.js"></script>
@@ -55,6 +54,7 @@
 	<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
 	<script type="text/javascript" src="/static/js/layout.js"></script>
 
+	{# GOOGLE ANALYTICS #}
 	<script type="text/javascript">
 		var _gaq = _gaq || [];
 		_gaq.push(['_setAccount', 'UA-37895131-1']);
@@ -67,7 +67,10 @@
 		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		})();
 	</script>
+	{# GOOGLE ANALYTICS #}
+
 	{% block javascript %}
+	{# CUSTOM JAVASCRIPT FROM VIEW #}
 	{% endblock javascript %}
 </body>
 </html>

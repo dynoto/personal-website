@@ -10,6 +10,6 @@ class ImageResource(ModelResource):
 		# excludes = ['uploaded']
 		ordering = ['uploaded','name','likes','star']
 
-		# limit = 6
+		limit = 6
 		authorization = Authorization()
 		include_resource_uri = False
