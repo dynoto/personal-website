@@ -9,8 +9,8 @@ class Category(models.Model):
 	def __unicode__(self):
 		return self.name
 
-class Image(models.Model):
-	category = models.ForeignKey(Category)
+class PhotographImage(models.Model):
+	category = models.ForeignKey(Category,related_name="photographImages")
 	name = models.CharField(max_length=200)
 	description = models.TextField()
 	image_s = models.CharField(max_length=200,null=True,blank=True)
@@ -31,4 +31,4 @@ class Image(models.Model):
 			self.image_m = image_link[0] +  '/s1000/' + image_link[1]
 			self.image_l = image_link[0] +  '/s0/' + image_link[1]
 
-		super(Image,self).save(*args,**kwargs)
+		super(PhotographImage,self).save(*args,**kwargs)

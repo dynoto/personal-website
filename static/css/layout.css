@@ -33,6 +33,14 @@ select{
 	padding: 3px 5px 3px 8px !important;
 }
 
+.no-padding{
+	padding: 0 !important;
+}
+
+[ng\:cloak], [ng-cloak], .ng-cloak {
+  display: none !important;
+}
+
 .orbit-wrapper .slider-nav span { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; -webkit-transition: opacity 400ms; -moz-transition: opacity 400ms; -o-transition: opacity 400ms; transition: opacity 400ms; }
 .orbit-wrapper:hover .slider-nav span { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100); opacity: 1; }
 #featured { background: url(spinner.gif) center center #f4f4f4; height: 300px; }

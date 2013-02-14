@@ -1,0 +1,52 @@
+{% extends "common/layout.html" %}
+
+{# ------------------------CSS HERE---------------------------- #}
+{% block css %}
+	<link rel="stylesheet" type="text/css" href="/static/css/portfolios_work.css">
+{% endblock css %}
+
+{# ------------------------JAVASCRIPT HERE--------------------- #}
+{% block javascript %}
+	<SCRIPT TYPE="text/javascript" src="/static/js/portfolios_work.js"></SCRIPT>
+{% endblock javascript %}
+
+{# ------------------------CONTENT HERE------------------------ #}
+{% block main_content %}
+	
+
+{# HEADER HERE #}
+<div class="row display">
+	<div class="twelve columns">
+	<h1 class="comfortaa">Projects</h1>
+	<h3><small>Things that i love to do ...</small></h3>
+	</div>
+</div>
+
+{# WORK PROJECTS HERE #}
+<div id="project_list">
+<div class="row display project_row ng-cloak" ng-repeat="project in projectList">
+	<div class="twelve columns">
+		<div class="row title_wrapper">
+			<img ng-src="{[{ project.images[0].url }]}" class="main_image" ng-show="project.images">
+			<div class="twelve columns title_overlay">
+				<div class="grayscale"></div>
+				<h3 class="project_title">{[{ project.name }]}</h3>
+			</div>
+		</div>
+		<div class="row body_wrapper hide_element">
+			<div class="{[{ projectColumnCheck($index) }]} columns">
+				{# <h4 class="body_project_title">{[{ project.name }]}</h4> #}
+				<h4 class="body_project_description"><small>{[{ project.description }]}</small></h4>
+				<h5 class="technology_title">Frameworks</h5>
+				<ul class="technology_list"><li ng-repeat="technology in project.technologies">{[{ technology.name }]}</li></ul>
+			</div>
+
+			<div class="seven columns" ng-show="project.images">
+				<img ng-src="{[{ project.images[0].url }]}" class="image_gallery">
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+{% endblock main_content %}

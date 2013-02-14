@@ -28,3 +28,62 @@ span.title {
 .general.foundicon-heart{
 	font-size: 1.5em;
 }
+.general.foundicon-heart > span {
+	margin-left: 5px;
+	vertical-align: top;
+	font-size: 1.05em;
+}
+
+div.reveal_master{
+	background: none repeat scroll 0 0 rgba(58, 58, 58, 0.92);
+	height: 100%;
+	display: block;
+}
+
+div#reveal_modal{
+	background: transparent;
+	box-shadow: none;
+	padding: 0px;
+}
+div.reveal_overlay{
+	position: absolute;
+	width: 100%;
+	top: 0;
+	z-index: 3;
+}
+a.overlay_trigger{
+	background: none repeat scroll 0 0 rgba(91, 91, 91, 0.67);
+    font-size: 25px;
+    margin: 0;
+    padding: 7px 7px 5px;
+}
+div.reveal_overlay > div{
+	background: none repeat scroll 0 0 rgba(91, 91, 91, 0.67);
+	display: inline-block;
+	width: 100%;
+}
+div.info > * , div.button_group > *, a.overlay_trigger{
+	color: white;
+}
+
+div.button_group{
+    background: none repeat scroll 0 0 rgba(91, 91, 91, 0.67);
+    bottom: 0;
+    padding: 10px 0 5px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+}
+
+div.info{
+	padding: 0 10px;
+}
+
+div.button_group > a {
+    font-size: 40px !important;
+    margin: 0 10px;
+}
+a.liked,p.liked{
+	color: #FC8585 !important;
+}

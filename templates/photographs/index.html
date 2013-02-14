@@ -29,11 +29,11 @@
 <div class="row">
 	<div class="twelve columns">
 	<ul class="block-grid three-up " id="overlay_master">
-		<li class="image_div" ng-repeat="image in images" fadey="1000">
+		<li class="image_div ng-cloak" ng-repeat="image in images" slidy="1000">
 			<div class="overlay_parent">
-			<a href="#" ng-click="updateReveal($index)" data-reveal-id="reveal_modal"><img src="{[{image.image_s}]}"></a>
+			<a href="#" ng-click="updateReveal($index)" data-reveal-id="reveal_modal"><img ng-src="{[{image.image_s}]}"></a>
 				<div class="overlay">
-					<p class="general foundicon-heart right"> {[{ image.likes }]}</p>
+					<p class="general foundicon-heart right" ng-class="{[{ image.liked }]}"><span>{[{ image.likes }]}</span></p>
 					<p><span class="title newscycle">{[{ image.name }]}</span></p>
 				</div>
 			</div>
@@ -56,8 +56,23 @@
 
 {# ------------------------MODAL HERE------------------------ #}
 {% block reveal_modal %}
-<div id="reveal_modal" class="reveal-modal xlarge">
-	<h1>{[{ revealData.name }]}</h1>
-	<img src="{[{ revealData.image_m }]}">
+<div id="reveal_modal" class="reveal-modal large">
+	<div class="row">
+		<div class="twelve columns no-padding reveal_master">
+			<div class="button_group">
+				<a class="prev_image image_btn general foundicon-left-arrow" ng-click="previousImage()"></a>
+				<a class="like_image general foundicon-heart" ng-click="like()"></a>
+				<a class="next_image image_btn general foundicon-right-arrow" ng-click="nextImage()"></a>
+			</div>
+			<div class="reveal_overlay">
+				<div class="info">
+					<h2>{[{ revealData.name }]}</h2>
+					<h6>{[{ revealData.description }]}</h6>
+				</div>
+				<a href="" class="overlay_trigger right"><p class="general foundicon-plus"></p></a>
+			</div>
+			<img ng-src="{[{ revealData.image_m }]}" class="reveal_image ng-cloak">
+		</div>
+	</div>
 </div>	
 {% endblock reveal_modal %}

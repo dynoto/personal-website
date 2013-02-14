@@ -11,14 +11,14 @@ from photographs.models import *
 
 def index(request):
 	template = loader.get_template('photographs/index.html')
-	image_list = Image.objects.order_by('-uploaded')
+	image_list = PhotographImage.objects.order_by('-uploaded')
 	context  = Context({
 		'image_list': image_list,
 	})
 	return HttpResponse(template.render(context))
 
 def view(request,image_id):
-	image = Image.objects.order_by('-uploaded')[:5]
+	image = PhotographImage.objects.order_by('-uploaded')[:5]
 	context = Context({
 		'image_list': image,
 	})

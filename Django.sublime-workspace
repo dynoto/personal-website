@@ -4,6 +4,86 @@
 		"selected_items":
 		[
 			[
+				"max-",
+				"max-height"
+			],
+			[
+				"Project",
+				"ProjectImageResource"
+			],
+			[
+				"Image",
+				"ImageInline"
+			],
+			[
+				"Tech",
+				"TechnologyAdmin"
+			],
+			[
+				"block",
+				"block	block"
+			],
+			[
+				"anim",
+				"animateLike"
+			],
+			[
+				"fade",
+				"fadeImage"
+			],
+			[
+				"rev",
+				"reveal_image"
+			],
+			[
+				"reveal",
+				"reveal_image"
+			],
+			[
+				"revea",
+				"reveal_master"
+			],
+			[
+				"in",
+				"inline-table"
+			],
+			[
+				"if",
+				"ife	if … else"
+			],
+			[
+				"mouse",
+				"mouseenter"
+			],
+			[
+				"over",
+				"overlayAnimation"
+			],
+			[
+				"ng",
+				"ng-controller"
+			],
+			[
+				"Model",
+				"ModelResource"
+			],
+			[
+				"auto_",
+				"auto_now_add"
+			],
+			[
+				"image",
+				"image_link"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
 				"script",
 				"SCRIPT	Tag"
 			],
@@ -16,20 +96,12 @@
 				"margin"
 			],
 			[
-				"max-",
-				"max-width"
-			],
-			[
 				"fon",
 				"font-weight"
 			],
 			[
 				"margin-",
 				"margin-left"
-			],
-			[
-				"back",
-				"background-color"
 			],
 			[
 				"min",
@@ -80,10 +152,6 @@
 				"name"
 			],
 			[
-				"image",
-				"image_list"
-			],
-			[
 				"ROO",
 				"SITE_ROOT"
 			],
@@ -94,10 +162,6 @@
 			[
 				"dja",
 				"DJANGO_ROOT"
-			],
-			[
-				"Image",
-				"ImageAdmin"
 			],
 			[
 				"Categor",
@@ -450,104 +514,32 @@
 			[
 				"dime",
 				"dimension_row"
-			],
-			[
-				"Dimen",
-				"Dimension"
-			],
-			[
-				"Finish",
-				"FinishesProduct"
-			],
-			[
-				"finishes",
-				"finishesProductInput"
-			],
-			[
-				"exist",
-				"existingFinishesProduct"
-			],
-			[
-				"fin",
-				"finishesProductInput"
-			],
-			[
-				"fini",
-				"finish_name"
-			],
-			[
-				"sav",
-				"saveAll"
-			],
-			[
-				"inl",
-				"inline-block"
-			],
-			[
-				"list",
-				"list-style-type"
-			],
-			[
-				"hidd",
-				"hiddenField"
-			],
-			[
-				"Stand",
-				"StandardDimension"
-			],
-			[
-				"standa",
-				"StandardDimension"
-			],
-			[
-				"fore",
-				"foreignKey"
-			],
-			[
-				"Dim",
-				"DimensionsProduct"
-			],
-			[
-				"Di",
-				"DimensionType"
-			],
-			[
-				"dimension",
-				"dimension_id"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "photographs/views.py",
+			"file": "static/css/portfolios_work.css",
 			"settings":
 			{
-				"buffer_size": 631,
+				"buffer_size": 448,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "templates/portfolios/index.html",
+			"file": "static/js/portfolios_work.js",
 			"settings":
 			{
-				"buffer_size": 4452,
+				"buffer_size": 838,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "templates/photographs/index.html",
+			"file": "templates/portfolios/work.html",
 			"settings":
 			{
-				"buffer_size": 538,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/common/navigation.html",
-			"settings":
-			{
-				"buffer_size": 767,
+				"buffer_size": 1187,
 				"line_ending": "Unix"
 			}
 		}
@@ -555,9 +547,33 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 107.0,
+		"height": 49.0,
 		"selected_items":
 		[
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: an",
+				"Snippet: Angular tag ..."
+			],
+			[
+				"html",
+				"Set Syntax: HTML (Django)"
+			],
+			[
+				"script",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Snippet: i",
+				"Snippet: if"
+			],
 			[
 				"static",
 				"Snippet: static"
@@ -579,7 +595,7 @@
 				"Snippet: foreach …"
 			]
 		],
-		"width": 575.0
+		"width": 453.0
 	},
 	"console":
 	{
@@ -596,41 +612,54 @@
 	},
 	"file_history":
 	[
+		"/Volumes/Files/Dropbox/Projects/django_tut/static/js/photographs_index.js",
+		"/Volumes/Files/Dropbox/Projects/django_tut/portfolios/views.py",
+		"/Volumes/Files/Dropbox/Projects/django_tut/photographs/api.py",
+		"/Volumes/Files/Dropbox/Projects/django_tut/templates/photographs/index.html",
 		"/Volumes/Files/Dropbox/Projects/django_tut/django_tut/urls.py",
-		"/Volumes/Files/Dropbox/Projects/django_tut/static/foundation/css/presentation.css",
-		"/Volumes/Files/Dropbox/Projects/django_tut/templates/common/layout.html",
 		"/Volumes/Files/Dropbox/Projects/django_tut/static/css/layout.css",
+		"/Volumes/Files/Dropbox/Projects/django_tut/portfolios/api.py",
+		"/Volumes/Files/Dropbox/Projects/django_tut/portfolios/models.py",
+		"/Volumes/Files/Dropbox/Projects/django_tut/photographs/models.py",
+		"/Volumes/Files/Dropbox/Projects/django_tut/templates/common/layout.html",
+		"/Volumes/Files/Dropbox/Projects/django_tut/templates/portfolios/index.html",
+		"/Volumes/Files/Dropbox/Projects/django_tut/portfolios/admin.py",
+		"/Volumes/Files/Dropbox/Projects/django_tut/photographs/urls.py",
+		"/Volumes/Files/Dropbox/Projects/django_tut/photographs/views.py",
+		"/Volumes/Files/Dropbox/Projects/django_tut/django_tut/settings.py",
+		"/Volumes/Files/Dropbox/Projects/django_tut/photographs/admin.py",
+		"/Volumes/Files/Dropbox/Projects/django_tut/templates/portfolios/work.html",
+		"/Volumes/Files/Dropbox/Projects/ResellerWebsite/ContactInfo.php",
+		"/Volumes/Files/Dropbox/Projects/django_tut/static/css/portfolios_work.css",
+		"/Volumes/Files/Dropbox/Projects/django_tut/static/js/layout.js",
+		"/Volumes/Files/Dropbox/Projects/django_tut/static/js/portfolios_work.js",
+		"/Volumes/Files/Dropbox/Projects/django_tut/templates/common/navigation.html",
+		"/Volumes/Files/Dropbox/Projects/django_tut/portfolios/urls.py",
+		"/Volumes/Files/Dropbox/Projects/django_tut/static/foundation/css/presentation.css",
+		"/Volumes/Files/Dropbox/Projects/django_tut/static/css/photographs_index.css",
+		"/Users/davidcokro_12/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/davidcokro_12/Library/Application Support/Sublime Text 2/Packages/Djaneiro/Settings/HTML (Django).sublime-settings",
+		"/Users/davidcokro_12/Library/Application Support/Sublime Text 2/Packages/User/HTML (Django).sublime-settings",
+		"/Users/davidcokro_12/Library/Application Support/Sublime Text 2/Packages/User/AngularJS.sublime-snippet",
+		"/Volumes/Files/Dropbox/Projects/django_tut/static/css/portfolios_index.css",
 		"/Volumes/Files/Dropbox/Projects/django_tut/templates/admin/500.html",
 		"/Volumes/Files/Dropbox/Projects/django_tut/templates/.admin.bak/index.html",
-		"/Volumes/Files/Dropbox/Projects/django_tut/templates/portfolios/index.html",
-		"/Volumes/Files/Dropbox/Projects/django_tut/django_tut/settings.py",
-		"/Volumes/Files/Dropbox/Projects/django_tut/photographs/models.py",
 		"/Volumes/Files/Dropbox/Projects/django_tut/templates/admin/login.html",
-		"/Volumes/Files/Dropbox/Projects/django_tut/photographs/urls.py",
 		"/Volumes/Files/Dropbox/Projects/django_tut/templates/admin/index.html",
-		"/Volumes/Files/Dropbox/Projects/django_tut/templates/common/navigation.html",
 		"/Volumes/Files/Dropbox/Projects/django_tut/static/js/portfolios_index.js",
-		"/Volumes/Files/Dropbox/Projects/django_tut/static/css/portfolios_index.css",
-		"/Volumes/Files/Dropbox/Projects/django_tut/photographs/admin.py",
-		"/Volumes/Files/Dropbox/Projects/django_tut/portfolios/views.py",
-		"/Volumes/Files/Dropbox/Projects/django_tut/photographs/views.py",
 		"/Volumes/Files/Dropbox/Projects/django_tut/static/css/presentation.css",
 		"/Volumes/Files/Dropbox/Projects/phpinfo.php",
-		"/Volumes/Files/Dropbox/Projects/django_tut/templates/photographs/index.html",
 		"/Volumes/Files/Dropbox/Projects/django_tut/runserver.command",
 		"/Volumes/Files/Dropbox/Projects/django_tut/static/foundation/icons/social/stylesheets/social_foundicons.css",
 		"/Volumes/Files/Dropbox/Projects/django_tut/static/foundation/icons/general/stylesheets/general_foundicons.css",
-		"/Volumes/Files/Dropbox/Projects/django_tut/static/js/layout.js",
 		"/Volumes/Files/Dropbox/Projects/django_tut/static/css/foundation.top-bar.css",
 		"/Volumes/Files/Dropbox/Projects/django_tut/static/css/foundation.min.css",
 		"/Volumes/Files/Dropbox/Projects/django_tut/templates/photographs/view.html",
 		"/Volumes/Files/Dropbox/Projects/django_tut/urls.py",
 		"/Volumes/Files/Dropbox/Projects/django_tut/settings.py",
 		"/Volumes/Files/Dropbox/Projects/django_tut/django_tut/wsgi.py",
-		"/Volumes/Files/Dropbox/Projects/django_tut/portfolios/urls.py",
 		"/Volumes/Files/Dropbox/Projects/django_tut/portfolio/views.py",
 		"/Volumes/Files/Dropbox/Projects/django_tut/portfolio/urls.py",
-		"/Volumes/Files/Dropbox/Projects/django_tut/portfolios/models.py",
 		"/Volumes/Files/Dropbox/Projects/django_tut/portfolio/models.py",
 		"/Volumes/Files/Dropbox/Projects/PhoneGapProj/For Android/LPM-Android/example/assets/www/cordova-2.3.0.js",
 		"/Volumes/Files/Dropbox/Projects/django_tut/manage.py",
@@ -670,7 +699,6 @@
 		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/webroot/js/admins/kitchen_product_edit.js",
 		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/View/Visitors/products.ctp",
 		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/View/Kitchens/edit.ctp",
-		"/Users/davidcokro_12/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/Controller/ProductsController.php",
 		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/Controller/KitchensController.php",
 		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/Config/email.php",
@@ -711,19 +739,7 @@
 		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/Config/database.php",
 		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/lib/Cake/Config/config.php",
 		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/View/Administrators/index.ctp",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/webroot/css/visitors/product.css",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/View/Administrators/product.ctp",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/View/Visitors/cart_list.ctp",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/webroot/js/visitors/cart.js",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/View/Layouts/default.ctp",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/View/Common/visitors.ctp",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/View/Common/admins.ctp",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/View/Visitors/testimonials.ctp",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/View/Kitchens/add.ctp",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/View/Images/add.ctp",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/View/Products/add.ctp",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/View/Products/index.ctp",
-		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/webroot/css/layout.css"
+		"/Volumes/Files/Dropbox/Projects/IE_Project_Team34/app/webroot/css/visitors/product.css"
 	],
 	"find":
 	{
@@ -742,6 +758,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"http",
+			"hide()",
 			".right",
 			".RIGHT",
 			"float: right",
@@ -867,9 +885,7 @@
 			">",
 			"));\n",
 			"load",
-			"loadmodel",
-			"error-message",
-			"error"
+			"loadmodel"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -927,50 +943,81 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "photographs/views.py",
+					"file": "static/css/portfolios_work.css",
 					"settings":
 					{
-						"buffer_size": 631,
+						"buffer_size": 448,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								599,
-								599
+								372,
+								372
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 99.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "templates/portfolios/index.html",
+					"file": "static/js/portfolios_work.js",
 					"settings":
 					{
-						"buffer_size": 4452,
+						"buffer_size": 838,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								61,
-								0
+								368,
+								368
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "templates/portfolios/work.html",
+					"settings":
+					{
+						"buffer_size": 1187,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								972,
+								972
 							]
 						],
 						"settings":
@@ -979,61 +1026,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1449.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "templates/photographs/index.html",
-					"settings":
-					{
-						"buffer_size": 538,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								538,
-								538
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "templates/common/navigation.html",
-					"settings":
-					{
-						"buffer_size": 767,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								767,
-								767
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 308.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1058,6 +1051,12 @@
 				0,
 				1,
 				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
 			]
 		],
 		"cols":
@@ -1068,6 +1067,7 @@
 		"rows":
 		[
 			0.0,
+			0.5,
 			1.0
 		]
 	},
@@ -1087,20 +1087,228 @@
 		"selected_items":
 		[
 			[
-				"navhtml",
-				"templates/common/navigation.html"
+				"photojs",
+				"static/js/photographs_index.js"
 			],
 			[
-				"photographsind",
+				"portcss",
+				"static/css/portfolios_work.css"
+			],
+			[
+				"laycss",
+				"static/css/layout.css"
+			],
+			[
+				"photoind",
 				"templates/photographs/index.html"
+			],
+			[
+				"view",
+				"portfolios/views.py"
+			],
+			[
+				"photomod",
+				"photographs/models.py"
+			],
+			[
+				"models",
+				"portfolios/models.py"
+			],
+			[
+				"model",
+				"portfolios/models.py"
+			],
+			[
+				"api",
+				"photographs/api.py"
+			],
+			[
+				"photjs",
+				"static/js/photographs_index.js"
+			],
+			[
+				"layht",
+				"templates/common/layout.html"
+			],
+			[
+				"portworkjs",
+				"static/js/portfolios_work.js"
+			],
+			[
+				"workhtml",
+				"templates/portfolios/work.html"
+			],
+			[
+				"portmod",
+				"portfolios/models.py"
+			],
+			[
+				"url",
+				"django_tut/urls.py"
+			],
+			[
+				"urls",
+				"photographs/urls.py"
+			],
+			[
+				"port",
+				"portfolios/views.py"
+			],
+			[
+				"photoview",
+				"photographs/views.py"
+			],
+			[
+				"photomode",
+				"photographs/models.py"
+			],
+			[
+				"portindex",
+				"templates/portfolios/index.html"
+			],
+			[
+				"admin",
+				"photographs/admin.py"
+			],
+			[
+				"sett",
+				"django_tut/settings.py"
+			],
+			[
+				"photomo",
+				"photographs/models.py"
+			],
+			[
+				"api.py",
+				"photographs/api.py"
+			],
+			[
+				"portadm",
+				"portfolios/admin.py"
+			],
+			[
+				"portmodel",
+				"portfolios/models.py"
 			],
 			[
 				"lay",
 				"templates/common/layout.html"
 			],
 			[
+				"portwork",
+				"templates/portfolios/work.html"
+			],
+			[
+				"layjs",
+				"static/js/layout.js"
+			],
+			[
+				"portjs",
+				"static/js/portfolios_work.js"
+			],
+			[
+				"photoinhtml",
+				"templates/photographs/index.html"
+			],
+			[
+				"work",
+				"templates/portfolios/work.html"
+			],
+			[
+				"portview",
+				"portfolios/views.py"
+			],
+			[
+				"photourl",
+				"photographs/urls.py"
+			],
+			[
+				"djangurls",
+				"django_tut/urls.py"
+			],
+			[
+				"nav",
+				"templates/common/navigation.html"
+			],
+			[
+				"porturl",
+				"portfolios/urls.py"
+			],
+			[
+				"navi",
+				"templates/common/navigation.html"
+			],
+			[
+				"portv",
+				"portfolios/views.py"
+			],
+			[
+				"portmo",
+				"portfolios/models.py"
+			],
+			[
+				"apipy",
+				"photographs/api.py"
+			],
+			[
+				"layoucss",
+				"static/css/layout.css"
+			],
+			[
+				"layhtml",
+				"templates/common/layout.html"
+			],
+			[
+				"photint",
+				"templates/photographs/index.html"
+			],
+			[
+				"layout",
+				"templates/common/layout.html"
+			],
+			[
 				"pres",
 				"static/foundation/css/presentation.css"
+			],
+			[
+				"photoindhtml",
+				"templates/photographs/index.html"
+			],
+			[
+				"photoinde",
+				"static/css/photographs_index.css"
+			],
+			[
+				"photo_index",
+				"static/js/photographs_index.js"
+			],
+			[
+				"photomodel",
+				"photographs/models.py"
+			],
+			[
+				"mode",
+				"photographs/models.py"
+			],
+			[
+				"photographsindex",
+				"templates/photographs/index.html"
+			],
+			[
+				"prescss",
+				"static/foundation/css/presentation.css"
+			],
+			[
+				"portincss",
+				"static/css/portfolios_index.css"
+			],
+			[
+				"navhtml",
+				"templates/common/navigation.html"
+			],
+			[
+				"photographsind",
+				"templates/photographs/index.html"
 			],
 			[
 				"portin",
@@ -1115,32 +1323,12 @@
 				"templates/portfolios/index.html"
 			],
 			[
-				"sett",
-				"django_tut/settings.py"
-			],
-			[
-				"url",
-				"django_tut/urls.py"
-			],
-			[
-				"photomod",
-				"photographs/models.py"
-			],
-			[
-				"laycss",
-				"static/css/layout.css"
-			],
-			[
 				"html",
 				"templates/admin/login.html"
 			],
 			[
 				"photourls",
 				"photographs/urls.py"
-			],
-			[
-				"urls",
-				"django_tut/urls.py"
 			],
 			[
 				"index",
@@ -1155,10 +1343,6 @@
 				"photographs/admin.py"
 			],
 			[
-				"model",
-				"photographs/models.py"
-			],
-			[
 				"photopy",
 				"photographs/views.py"
 			],
@@ -1168,14 +1352,6 @@
 			],
 			[
 				"presen",
-				"static/foundation/css/presentation.css"
-			],
-			[
-				"navi",
-				"templates/common/navigation.html"
-			],
-			[
-				"prescss",
 				"static/foundation/css/presentation.css"
 			],
 			[
@@ -1219,10 +1395,6 @@
 				"static/foundation/icons/social/stylesheets/social_foundicons.css"
 			],
 			[
-				"layht",
-				"templates/common/layout.html"
-			],
-			[
 				"foundtop",
 				"static/css/foundation.top-bar.css"
 			],
@@ -1231,36 +1403,16 @@
 				"portfolios/views.py"
 			],
 			[
-				"view",
-				"portfolios/views.py"
-			],
-			[
 				"foundmin",
 				"static/css/foundation.min.css"
-			],
-			[
-				"portview",
-				"portfolios/views.py"
-			],
-			[
-				"nav",
-				"templates/common/navigation.html"
 			],
 			[
 				"photoadm",
 				"photographs/admin.py"
 			],
 			[
-				"photomo",
-				"photographs/models.py"
-			],
-			[
 				"portfin",
 				"templates/portfolios/index.html"
-			],
-			[
-				"photourl",
-				"photographs/urls.py"
 			],
 			[
 				"photin",
@@ -1269,10 +1421,6 @@
 			[
 				"photv",
 				"templates/photographs/view.html"
-			],
-			[
-				"photoview",
-				"photographs/views.py"
 			],
 			[
 				"ws",
@@ -1449,154 +1597,6 @@
 			[
 				"critview",
 				"app/View/Criterias/view.ctp"
-			],
-			[
-				"custom",
-				"app/Controller/CustomersController.php"
-			],
-			[
-				"rangeval",
-				"app/View/RangeValues/add.ctp"
-			],
-			[
-				"rangevalue",
-				"app/Model/RangeValue.php"
-			],
-			[
-				"rangetyp",
-				"app/View/RangeTypes/add.ctp"
-			],
-			[
-				"critvaadd",
-				"app/View/CriteriaValues/add.ctp"
-			],
-			[
-				"forgetct",
-				"app/View/Visitors/forget.ctp"
-			],
-			[
-				"forget",
-				"app/View/Visitors/forget.ctp"
-			],
-			[
-				"loginct",
-				"app/View/Users/login.ctp"
-			],
-			[
-				"modenq",
-				"app/Model/Enquiry.php"
-			],
-			[
-				"cust",
-				"app/Model/Customer.php"
-			],
-			[
-				"en",
-				"app/Model/Enquiry.php"
-			],
-			[
-				"cus",
-				"app/Model/Customer.php"
-			],
-			[
-				"cake",
-				"app/Console/cake"
-			],
-			[
-				"login",
-				"app/View/Users/login.ctp"
-			],
-			[
-				"visitorcon",
-				"app/Controller/VisitorsController.php"
-			],
-			[
-				"cartcss",
-				"app/webroot/css/visitors/cart.css"
-			],
-			[
-				"custview",
-				"app/View/Customers/view.ctp"
-			],
-			[
-				"rangetypeed",
-				"app/View/RangeTypes/edit.ctp"
-			],
-			[
-				"rangetypvi",
-				"app/View/RangeTypes/view.ctp"
-			],
-			[
-				"rangevview",
-				"app/View/RangeValues/view.ctp"
-			],
-			[
-				"viewcrit",
-				"app/View/Criterias/view.ctp"
-			],
-			[
-				"crited",
-				"app/View/Criterias/edit.ctp"
-			],
-			[
-				"data",
-				"app/Config/database.php"
-			],
-			[
-				"conf",
-				"lib/Cake/Config/config.php"
-			],
-			[
-				"testcss",
-				"app/webroot/css/visitors/testimonial.css"
-			],
-			[
-				"admind",
-				"app/View/Administrators/index.ctp"
-			],
-			[
-				"prodc",
-				"app/Controller/ProductsController.php"
-			],
-			[
-				"kitcon",
-				"app/Controller/KitchensController.php"
-			],
-			[
-				"prodctp",
-				"app/View/Administrators/product.ctp"
-			],
-			[
-				"prodcss",
-				"app/webroot/css/visitors/product.css"
-			],
-			[
-				"commad",
-				"app/View/Common/admins.ctp"
-			],
-			[
-				"commvis",
-				"app/View/Common/visitors.ctp"
-			],
-			[
-				"layct",
-				"app/View/Layouts/default.ctp"
-			],
-			[
-				"viscart",
-				"app/webroot/js/visitors/cart.js"
-			],
-			[
-				"cart",
-				"app/View/Visitors/cart_list.ctp"
-			],
-			[
-				"vistescss",
-				"app/webroot/css/visitors/testimonial.css"
-			],
-			[
-				"vistes",
-				"app/View/Visitors/testimonials.ctp"
 			]
 		],
 		"width": 0.0
@@ -1609,10 +1609,10 @@
 		],
 		"width": 380.0
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 286.0,
+	"side_bar_visible": false,
+	"side_bar_width": 217.0,
 	"status_bar_visible": true
 }
