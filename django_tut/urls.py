@@ -23,11 +23,11 @@ urlpatterns = patterns('',
     url(r'^projects/',include('portfolios.urls',namespace="projects")),
 
     # Uncomment the admin/doc line below to enable admin documentation:
-    url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
+    url(r'^manage/doc/', include('django.contrib.admindocs.urls')),
 
     # Uncomment the next line to enable the admin:
     url(r'^grappelli/', include('grappelli.urls')),
-    url(r'^admin/', include(admin.site.urls)),
+    url(r'^manage/', include(admin.site.urls)),
     url(r'^api/', include(project_resource.urls)),
     url(r'^api/', include(projectImage_resource.urls)),
     url(r'^api/', include(photographimage_resource.urls)),

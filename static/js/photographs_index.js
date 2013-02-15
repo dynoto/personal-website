@@ -75,6 +75,7 @@ function BodyCtrl($scope,$http){
 	};
 
 	$scope.like = function(){
+		animateLike($scope.revealData.liked);
 		$http({
 			method:'PUT',
 			url: '/api/image/' + $scope.revealData.id + '/',
@@ -84,7 +85,6 @@ function BodyCtrl($scope,$http){
 				$scope.revealData.likes += 1;
 				$scope.revealData.liked = 'liked';
 			}
-			animateLike($scope.revealData.liked);
 		}).error(function(data){
 			console.log(data);
 		});

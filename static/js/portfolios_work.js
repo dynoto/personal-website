@@ -20,13 +20,13 @@ $(document).ready(function(){
 
 		if(_.isUndefined($(this).attr('open'))){
 			title_overlay.stop().animate({'right':'0%'},200);
-			body_wrapper.stop().slideDown(200);
+			body_wrapper.stop().slideDown(400);
 			grayscale.addClass('opacity_dark');
 			$(this).attr('open','-');
 
 		}else{
 			title_overlay.stop().animate({'right':'-35%'},200);	
-			body_wrapper.stop().slideUp(200);	
+			body_wrapper.stop().slideUp(400);	
 			grayscale.removeClass('opacity_dark');
 			$(this).removeAttr('open');
 			// var rand =  _.random(0,30) + _.random(1,100) * 0.01;
@@ -52,7 +52,7 @@ function BodyCtrl($scope,$http){
 	};
 
 	$scope.projectColumnCheck = function(index){
-		imageList = $scope.projectList[index].images;
+		var imageList = $scope.projectList[index].images;
 		if(_.isEmpty(imageList)){
 			return 'ten';
 		}else{
@@ -60,6 +60,27 @@ function BodyCtrl($scope,$http){
 		}
 	};
 
+	$scope.scrollImage = function(index,value){
+		var project = $scope.projectList[index];
+		var idx = project.idx + value
+		var imagelen = project.images.length;
+
+		if(idx < 0){
+			idx = imagelen - 1;
+		}else if(idx >= imagelen ){
+			idx = 0;
+		}
+		project.idx = idx;
+
+	};
+
+	$scope.showProjectUrl = function(index){
+		if( _.isEmpty($scope.projectlist[index].url) ){
+			return false;
+		}else{
+			return true;
+		}
+	}
 
 	$scope.updateProjectList();
 }

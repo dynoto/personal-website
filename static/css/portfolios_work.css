@@ -48,7 +48,11 @@ div.grayscale{
 	line-height: 160%;
 }
 .body_wrapper{
-	margin: 20px 0 !important;
+	padding-left: 20px !important;
+}
+
+.body_wrapper > div{
+	margin: 30px 0 !important;
 }
 
 img.image_gallery{
@@ -75,4 +79,32 @@ ul.technology_list > li, .body_project_description > small{
 }
 .opacity_dark{
 	opacity: 0.43 !important;
+}
+.button_group{
+	bottom: 0;
+    margin: 0 5%;
+    position: absolute;
+    text-align: center;
+    width: 85%;
+}
+.image_btn{
+	color: white;
+	font-size: 2.5em;
+	margin: 0 15px;
+}
+.image_group{
+	position: relative;
+}
+.image_gallery:first-child{
+	position: relative !important;
+}
+.image_gallery{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.button.secondary.small.urllink{
+	padding: 6px 14px;
+	font-size: 13px;
 }

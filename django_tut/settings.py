@@ -139,7 +139,8 @@ INSTALLED_APPS = (
     'photographs',
     'portfolios',
     'south',
-    'tastypie'
+    'tastypie',
+    'storages'
 )
 
 
