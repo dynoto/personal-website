@@ -1,6 +1,14 @@
 # Django settings for django_tut project.
 import os,django
 
+#AWS STUFF
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
+AWS_ACCESS_KEY_ID = "AKIAJB3JQ6PX7NFMSQQA"
+AWS_SECRET_ACCESS_KEY = "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"
+AWS_STORAGE_BUCKET_NAME = "code0cdnsyd"
+#S3_URL = 'https://%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
+S3_URL = 'https://s3-ap-southeast-2.amazonaws.com/%s' % AWS_STORAGE_BUCKET_NAME
+
 DJANGO_ROOT = os.path.dirname(os.path.realpath(django.__file__))
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
 
@@ -49,12 +57,12 @@ USE_TZ = True
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/home/media/media.lawrence.com/media/"
-MEDIA_ROOT = os.path.join(PROJECT_ROOT,'site_media')
+MEDIA_ROOT = '/media/'
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
 # Examples: "http://media.lawrence.com/media/", "http://example.com/media/"
-MEDIA_URL = '/media/'
+MEDIA_URL = S3_URL + MEDIA_ROOT
 
 # Absolute path to the directory static files should be collected to.
 # Don't put anything in this directory yourself; store your static files

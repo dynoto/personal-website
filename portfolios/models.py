@@ -20,7 +20,7 @@ class Project(models.Model):
 class ProjectImage(models.Model):
 	project = models.ForeignKey(Project,related_name='projectImages')
 	name = models.CharField(max_length=200,default='-')
-	url = models.CharField(max_length=200,null=True,blank=True)
+	url = models.ImageField(upload_to="media/images/projects/",max_length=200,null=True)
 
 	def __unicode__(self):
 		return self.name

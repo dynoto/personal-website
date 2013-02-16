@@ -43,7 +43,7 @@
 			</div>
 			<div class="seven columns" ng-show="project.images">
 				<div class="image_group">
-				<img ng-src="{[{ project.images[project.idx].url }]}" class="image_gallery" ng-init="project.idx = 0">
+				<img ng-src="{{ MEDIA_URL }}{[{ project.images[project.idx].url }]}" class="image_gallery" ng-init="project.idx = 0">
 				</div>
 				<div class="button_group {[{ project.imageOrder }]}" ng-show="project.images[1]">
 					<a class="prev_image image_btn general foundicon-left-arrow" ng-click="scrollImage($index,-1)"></a>
