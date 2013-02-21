@@ -75,15 +75,15 @@ function BodyCtrl($scope,$http){
 	};
 
 	$scope.like = function(){
-		animateLike($scope.revealData.liked);
+		animateLike(true);
 		$http({
 			method:'PUT',
-			url: '/api/image/' + $scope.revealData.id + '/',
+			url: '/api/photographs/' + $scope.revealData.id + '/',
 			data:{'likes':'1'},	
 		}).success(function(data){
 			if(!$scope.revealData.liked){
 				$scope.revealData.likes += 1;
-				$scope.revealData.liked = 'liked';
+				$scope.revealData.liked = true;
 			}
 		}).error(function(data){
 			console.log(data);
@@ -128,7 +128,7 @@ function fadeImage(){
 }
 
 function animateLike(liked){
-	if(liked === 'liked'){
+	if(liked == true){
 		$('a.like_image').addClass('liked',300);
 	}else{
 		$('a.like_image').removeClass('liked',300);

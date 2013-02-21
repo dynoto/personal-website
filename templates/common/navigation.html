@@ -3,13 +3,12 @@
   <div class="attached">
     <div class="name">
       <span>
-      {# <a href="http://google.com" class="Comfortaa">Mysterious Duck</a> #}
-      <img src="/media/images/layout/cz.png"/>
+      <img src="{{MEDIA_URL}}layout/cz.png"/>
     </span>
     </div>
     <ul class="right">
       <li><a href="{% url 'home' %}"><p class="social foundicon-torso "> ME</p></a></li>
-      {# <li><a href="{% url 'blog' %}"><p class="social foundicon-wordpress "> blog</p></a></li> #}
+      <li><a href="{% url 'blogs:index' %}"><p class="social foundicon-wordpress "> blog</p></a></li>
       <li><a href="{% url 'projects:work' %}"><p class="general foundicon-edit "> projects</p></a></li>
       <li><a href="{% url 'photographs:index' %}"><p class="social foundicon-instagram "> photos</p></a></li>
       {# <li><a href="{% url 'contact' %}"><p class="general foundicon-phone "> contact</p></a></li> #}

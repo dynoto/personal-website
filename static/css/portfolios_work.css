@@ -6,6 +6,7 @@ img.main_image{
 	position: absolute;
 	left: 0;
 	width: 100%;
+	opacity: 0.4;
 }
 
 div.title_wrapper{
@@ -52,7 +53,7 @@ div.grayscale{
 }
 
 .body_wrapper > div{
-	margin: 30px 0 !important;
+	margin: 30px 0 10px !important;
 }
 
 img.image_gallery{
@@ -81,14 +82,12 @@ ul.technology_list > li, .body_project_description > small{
 	opacity: 0.43 !important;
 }
 .button_group{
-	bottom: 0;
-    margin: 0 5%;
-    position: absolute;
+	margin-top: 10px;
     text-align: center;
-    width: 85%;
+    width: 100%;
 }
 .image_btn{
-	color: white;
+	color: white !important;
 	font-size: 2.5em;
 	margin: 0 15px;
 }

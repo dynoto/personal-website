@@ -75,10 +75,10 @@ function BodyCtrl($scope,$http){
 	};
 
 	$scope.showProjectUrl = function(index){
-		if( _.isEmpty($scope.projectlist[index].url) ){
-			return false;
-		}else{
+		if(! _.isEmpty($scope.projectList[index].url) ){
 			return true;
+		}else{
+			return false;
 		}
 	}
 

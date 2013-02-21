@@ -2,19 +2,19 @@
 {% load url from future %}
 {# CSS HERE #}
 {% block css %}
-	<link rel="stylesheet" type="text/css" href="/static/css/portfolios_index.css">
+	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/portfolios_index.css">
 {% endblock css %}
 
 {# JAVASCRIPT HERE #}
 {% block javascript %}
-	<script type="text/javascript" src="/static/js/portfolios_index.js"></script>
+	<script type="text/javascript" src="{{ STATIC_URL }}js/portfolios_index.js"></script>
 {% endblock javascript %}
 
 
 {% block main_content %}
 <div class="row display">
 	<div class="three columns">
-	<img src="/media/images/portfolio_index/profile.jpg" id="profile_image"/>
+	<img src="{{ MEDIA_URL }}portfolios_index/profile.jpg" id="profile_image"/>
 	</div>
 	<div class="nine columns">
 		<div class="row top_selector">
@@ -88,7 +88,7 @@
 							<h4><small class="right">*beware of sharks!</small></h4>
 					</div>
 					<div class="eight columns">
-						<img src="/media/images/portfolio_index/origin.jpg" class="shadow">
+						<img src="{{ MEDIA_URL }}portfolios_index/origin.jpg" class="shadow">
 					</div>
 				</div>
 			</li>
@@ -108,7 +108,7 @@
 						</p>
 					</div>
 					<div class="eight columns">
-						<img src="/media/images/portfolio_index/devour.png">
+						<img src="{{ MEDIA_URL }}portfolios_index/devour.png">
 					</div>
 				</div>
 			</li>

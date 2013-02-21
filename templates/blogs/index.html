@@ -1,0 +1,43 @@
+{% extends "common/layout.html" %}
+
+{% block css %}
+	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/blogs_index.css">
+{% endblock css %}
+
+{# ------------------------JAVASCRIPT HERE--------------------- #}
+{% block javascript %}
+	<SCRIPT TYPE="text/javascript" src="{{ STATIC_URL }}js/blogs_index.js"></SCRIPT>
+{% endblock javascript %}
+
+{# ------------------------CONTENT HERE------------------------ #}
+{% block main_content %}
+<div>
+
+{# HEADER HERE #}
+<div class="row display">
+<div class="twelve columns">
+
+	<h1 class="comfortaa">Blog</h1>
+	<h3><small>Geek and Non-Geek Stuff</small></h3>
+<!-- 	<div class="right">
+		<select class="right" required="required" ng-model="orderSelected" ng-change="updateImages()" ng-options="om.value as om.name for om in orderMethod"></select>
+	</div> -->
+
+</div>
+</div>
+
+<div class="row display">
+<div class="ten columns">
+	<div class="article_wrapper row display" ng-repeat="article in articles">
+		<div class="twelve columns">
+			<h4>{[{ article.title }]} - <small>{[{ article.created | date:'EEEE, dd MMM' }]}</small></h4>
+			<div ng-bind-html-unsafe="article.content" class="article_content">
+			</div>
+		</div>
+	</div>
+</div>
+<div class="two columns">
+	<h5>Tags</h5>
+</div>
+</div>
+{% endblock main_content %}

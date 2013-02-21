@@ -10,12 +10,12 @@ from django.shortcuts import render
 from photographs.models import *
 
 def index(request):
-	template = loader.get_template('photographs/index.html')
-	image_list = PhotographImage.objects.order_by('-uploaded')
-	context  = Context({
-		'image_list': image_list,
-	})
-	return HttpResponse(template.render(context))
+	# template = loader.get_template('photographs/index.html')
+	# image_list = PhotographImage.objects.order_by('-uploaded')
+	# context  = Context({
+	# 	'image_list': image_list,
+	# })
+	return render(request,'photographs/index.html')
 
 def view(request,image_id):
 	image = PhotographImage.objects.order_by('-uploaded')[:5]

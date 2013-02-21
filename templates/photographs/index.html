@@ -2,17 +2,16 @@
 
 {# ------------------------CSS HERE---------------------------- #}
 {% block css %}
-	<link rel="stylesheet" type="text/css" href="/static/css/photographs_index.css">
+	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/photographs_index.css">
 {% endblock css %}
 
 {# ------------------------JAVASCRIPT HERE--------------------- #}
 {% block javascript %}
-	<SCRIPT TYPE="text/javascript" src="/static/js/photographs_index.js"></SCRIPT>
+	<SCRIPT TYPE="text/javascript" src="{{ STATIC_URL }}js/photographs_index.js"></SCRIPT>
 {% endblock javascript %}
 
 {# ------------------------CONTENT HERE------------------------ #}
 {% block main_content %}
-<div>
 
 {# HEADER HERE #}
 <div class="row display">
@@ -47,9 +46,6 @@
 	<div class="twelve columns">
 		<a href="#" class="right small secondary button" ng-click="moreImages()">MORE</a>
 	</div>
-</div>
-
-
 </div>
 
 {% endblock main_content %}
