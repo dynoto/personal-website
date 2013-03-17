@@ -36,9 +36,6 @@ urlpatterns = patterns('',
     url(r'^api/', include(projectImage_resource.urls)),
     url(r'^api/', include(photographimage_resource.urls)),
     url(r'^api/', include(article_resource.urls)),
-    url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {
-        'document_root': settings.STATIC_ROOT,
-    })
 )
 
 if settings.DEBUG:

@@ -1,6 +1,8 @@
 $(document).ready(function(){
 	$('div.top_selector > dl > dd').click(function(){
 		var top_selector = $(this).attr('selector_data');
+		$('div.top_selector').find('h3').addClass('slave-invert-hover');
+		$(this).find('h3').removeClass('slave-invert-hover');
 		$('p > span.'+top_selector).addClass('selector_focus',500);
 		$('p > span').not('.'+top_selector).removeClass('selector_focus',500);
 	});

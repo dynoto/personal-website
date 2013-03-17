@@ -14,19 +14,19 @@
 {% block main_content %}
 
 {# HEADER HERE #}
-<div class="row display">
+<div class="row display page-title-border">
 	<div class="twelve columns">
-	<h1 class="comfortaa">Photographs</h1>
+	<h1 class="comfortaa slave">Photographs</h1>
 	<h3><small>Beauty of what we saw ...</small></h3>
-	<div class="right">
-		<select class="right" required="required" ng-model="orderSelected" ng-change="updateImages()" ng-options="om.value as om.name for om in orderMethod"></select>
-	</div>
 	</div>
 </div>
 
 {# IMAGES HERE #}
 <div class="row">
 	<div class="twelve columns">
+			<div class="right">
+		<select class="right" required="required" ng-model="orderSelected" ng-change="updateImages()" ng-options="om.value as om.name for om in orderMethod"></select>
+	</div>
 	<ul class="block-grid three-up " id="overlay_master">
 		<li class="image_div ng-cloak" ng-repeat="image in images" slidy="1000">
 			<div class="overlay_parent">
@@ -44,7 +44,7 @@
 {# NEXT BUTTON HERE #}
 <div class="row display">
 	<div class="twelve columns">
-		<a href="#" class="right small secondary button" ng-click="moreImages()">MORE</a>
+		<a href="#" class="right small secondary button slave slave-hover grey-border" ng-click="moreImages()">MORE</a>
 	</div>
 </div>
 

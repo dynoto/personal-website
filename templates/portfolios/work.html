@@ -15,9 +15,9 @@
 	
 
 {# HEADER HERE #}
-<div class="row display">
+<div class="row display page-title-border">
 	<div class="twelve columns">
-	<h1 class="comfortaa">Projects</h1>
+	<h1 class="comfortaa slave">Projects</h1>
 	<h3><small>Things that i love to do ...</small></h3>
 	</div>
 </div>
@@ -39,7 +39,7 @@
 				<h4 class="body_project_description"><small>{[{ project.description }]}</small></h4>
 				<h5 class="technology_title">Frameworks</h5>
 				<ul class="technology_list"><li ng-repeat="technology in project.technologies">{[{ technology.name }]}</li></ul>
-				<a href="{[{ project.url }]}" ng-show="showProjectUrl($index)" class="button secondary small urllink comfortaa">Link</a>
+				<a href="{[{ project.url }]}" ng-show="showProjectUrl($index)" class="button secondary small urllink comfortaa slave slave-hover grey-border">Link</a>
 			</div>
 			<div class="seven columns" ng-show="project.images">
 				<div class="image_group">

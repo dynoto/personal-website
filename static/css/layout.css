@@ -8,8 +8,28 @@
 .top-bar .attached > .name span > a:hover{color:#fff;}
 .top-bar .attached > ul > li > a > p{font-size: 16px;font-family: "Pontano Sans";}
 
-body{
-	background-color: #F4F4F4;
+.master{color: #75C7E7 !important; background-color: white !important;}
+.master-invert{color:white !important; background-color:#75c7e7 !important;}
+.master-bg{background-color: #75C7E7 !important}
+.master-border{border-color: #75C7E7 !important}
+.master-hover:hover{
+	background: white !important;
+	color: #75c7e7 !important
+}
+
+.slave{color:#EF7070 !important; background-color: white !important}
+.slave-hover:hover{color:white !important; background-color: #EF7070 !important;}
+.slave-invert{color:white !important; background-color: #EF7070 !important;}
+.slave-invert-hover:hover{color:#EF7070 !important;}
+.slave-bg{background-color: #EF7070 !important}
+.slave-border{border-color: #EF7070 !important}
+
+.white-bg{background-color:white !important;}
+.white-border{border-color: white !important;}
+.grey-border{border-color: #E4E4E4 !important}
+
+.page-title-border{
+	border-bottom: 2px solid #ed7070;
 }
 
 dl > dd > a {
@@ -25,6 +45,7 @@ div.row.display{
 }
 
 select{
+	margin-bottom: 15px;
 	min-width: 160px;
 	border: 1px solid #E1E1E1 !important;
 	font-family: pontano sans !important;

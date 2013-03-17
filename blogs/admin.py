@@ -6,7 +6,7 @@ class TagAdmin(admin.ModelAdmin):
 	list_display = ('name','created')
 
 class ArticleAdmin(admin.ModelAdmin):
-	list_display = ('title','like','created','script','stylesheet')
+	list_display = ('id','title','like','created','script','stylesheet')
 	class Media:
 		js = ['/static/js/tiny_mce/tiny_mce.js','/static/js/tiny_mce/tiny_mce_setup.js']
 

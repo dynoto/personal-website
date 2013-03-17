@@ -1,3 +1,4 @@
+
 {% extends "common/layout.html" %}
 {% load url from future %}
 {# CSS HERE #}
@@ -19,9 +20,9 @@
 	<div class="nine columns">
 		<div class="row top_selector">
 			<dl class="tabs three-up">
-				<dd selector_data="i_am"><a href="#"><h3 id="first_selector">I AM </h3></a></dd>
-				<dd selector_data="i_do"><a href="#"><h3>I CODE</h3></a></dd>
-				<dd selector_data="i_love"><a href="#"><h3>I LOVE</h3></a></dd>
+				<dd selector_data="i_am"><a href="#"><h3 id="first_selector" class="slave-invert-hover">I AM </h3></a></dd>
+				<dd selector_data="i_do"><a href="#"><h3 class="slave-invert-hover">I CODE</h3></a></dd>
+				<dd selector_data="i_love"><a href="#"><h3 class="slave-invert-hover">I LOVE</h3></a></dd>
 			</dl>
 		</div>
 		<div class="row top_content">
@@ -58,7 +59,7 @@
 </div>
 <div class="row">
 	<div class="twelve columns">
-		<dl class="tabs twelve-up"><dd class="active"><a href="#">About Me</a></dd></dl>
+		<dl class="tabs twelve-up"><dd class="active grey-border"><a href="#" class="slave">About Me</a></dd></dl>
 		<ul class="tabs-content contained">
 			<li class="active">
 				<p class="newscycle">
@@ -75,7 +76,7 @@
 </div>
 <div class="row">
 	<div class="twelve columns">
-		<dl class="tabs twelve-up"><dd class="active"><a href="#">Origin</a></dd></dl>
+		<dl class="tabs twelve-up"><dd class="active grey-border"><a href="#" class="slave">Origin</a></dd></dl>
 		<ul class="tabs-content contained">
 			<li class="active">
 				<div class="row">
@@ -97,7 +98,7 @@
 </div>
 <div class="row">
 	<div class="twelve columns">
-		<dl class="tabs twelve-up"><dd class="active"><a href="#">Anatomy</a></dd></dl>
+		<dl class="tabs twelve-up"><dd class="active grey-border"><a href="#" class="slave">Anatomy</a></dd></dl>
 		<ul class="tabs-content contained">
 			<li class="active">
 				<div class="row">
@@ -117,7 +118,7 @@
 </div>
 <div class="row">
 	<div class="twelve columns">
-		<dl class="tabs twelve-up"><dd class="active"><a href="#">Photography</a></dd></dl>
+		<dl class="tabs twelve-up"><dd class="active grey-border"><a href="#" class="slave">Photography</a></dd></dl>
 		<ul class="tabs-content contained">
 			<li class="active">
 				<div class="row display">
@@ -131,7 +132,7 @@
 				</div>
 				<div class="row">
 					<div class="twelve columns ">
-						<a href="{% url 'photographs:index' %}" class="button secondary comfortaa right">GALLERY ></a>
+						<a href="{% url 'photographs:index' %}" class="button secondary comfortaa slave slave-hover grey-border right">GALLERY ></a>
 					</div>
 				</div>
 			</li>

@@ -3,10 +3,12 @@ import os,django
 
 #AWS STUFF
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
-# STATICFILES_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
+STATICFILES_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
 AWS_ACCESS_KEY_ID = "AKIAJB3JQ6PX7NFMSQQA"
 AWS_SECRET_ACCESS_KEY = "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"
 AWS_STORAGE_BUCKET_NAME = "code0cdnsyd"
+DJANGO_DOMAIN_NAME = 'http://code0.me/'
+# AWS_LOCATION = "static" #SUBFOLDER OF THE AMAZON S3 STATIC 
 AWS_QUERYSTRING_AUTH = False
 #S3_URL = 'https://%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
 S3_URL = 'https://%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
@@ -14,8 +16,10 @@ S3_URL = 'https://%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
 DJANGO_ROOT = os.path.dirname(os.path.realpath(django.__file__))
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
 
-# DEBUG = True
+
 DEBUG = False
+# DEBUG = True
+
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
@@ -71,15 +75,16 @@ MEDIA_URL = S3_URL + '/media/'
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/home/media/media.lawrence.com/static/"
-STATIC_ROOT = os.path.join(PROJECT_ROOT,'static/')
+# STATIC_ROOT = os.path.join(PROJECT_ROOT,'static_root/')
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
-# STATIC_URL = '/static/'
 STATIC_URL = S3_URL + '/static/'
+# STATIC_URL = '/static/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (
+    '',os.path.join(PROJECT_ROOT,'static/')
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.

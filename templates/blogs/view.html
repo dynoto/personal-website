@@ -6,7 +6,7 @@
 
 {# ------------------------JAVASCRIPT HERE--------------------- #}
 {% block javascript %}
-	<SCRIPT TYPE="text/javascript" src="{{ STATIC_URL }}js/blogs_index.js"></SCRIPT>
+
 {% endblock javascript %}
 
 {# ------------------------CONTENT HERE------------------------ #}
@@ -25,13 +25,15 @@
 
 </div>
 </div>
-
 <div class="row display">
 <div class="ten columns">
-	<div class="article_wrapper row display" ng-repeat="article in articles">
+	<div class="article_wrapper row display">
 		<div class="twelve columns">
-			<h4 class="ng-cloak">{[{ article.title }]} - <small>{[{ article.created | date:'EEEE, dd MMM' }]}</small></h4>
-			<div ng-bind-html-unsafe="article.content" class="article_content">
+			<h4 class="">{{ blog.title }} - <small>{{ blog.created }}</small></h4>
+			<div class="article_content">
+				{% autoescape off %}
+					{{ blog.content }}
+				{% endautoescape %}
 			</div>
 		</div>
 	</div>

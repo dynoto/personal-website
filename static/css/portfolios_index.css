@@ -45,8 +45,11 @@ div.top_content > p{
 	padding: 0 10px;	
 }
 .selector_focus{
-	color:#E64444;
+	color:#EF7070;
 }
 .glow_selector{
 	color: #949496;
+}
+.active > a > h3{
+	color: white !important;
 }

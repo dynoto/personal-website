@@ -386,7 +386,7 @@ that IE7/8 do not support :nth-child.
 .button.success:hover, .button.success:focus { background-color: #457a1a; }
 .button.alert { background-color: #c60f13; border: 1px solid #7f0a0c; }
 .button.alert:hover, .button.alert:focus { background-color: #970b0e; }
-.button.secondary { background-color: #F4F4FF; border: 3px solid #898989; color: #898989; font-size: 20px; font-weight: 100 }
+.button.secondary { border: 3px solid; font-size: 20px; font-weight: 100 }
 /*.button.secondary:hover, .button.secondary:focus { background-color: #d0d0d0; }*/
 .button.radius { -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; }
 .button.round { -webkit-border-radius: 1000px; -moz-border-radius: 1000px; -ms-border-radius: 1000px; -o-border-radius: 1000px; border-radius: 1000px; }
@@ -751,15 +751,15 @@ ul.block-grid[data-clearing] { overflow: visible; }
 .clearing-blackout:hover img, .clearing-blackout:focus img { -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); }
 
 /* Tabs ---------------------- */
-.tabs { list-style: none; border-bottom: solid 1px #e6e6e6; display: block; height: 40px; padding: 0; margin-bottom: 20px; }
+.tabs { list-style: none; border-bottom: solid 1px #e6e6e6; display: block; height: 40px; padding: 0; margin-bottom: 0px; }
 .tabs.contained { margin-bottom: 0; margin-left: 0; }
 .tabs dt, .tabs li.section-title { color: #b3b3b3; cursor: default; display: block; float: left; font-size: 12px; height: 40px; line-height: 40px; padding: 0; padding-right: 9px; padding-left: 20px; font-weight: normal; width: auto; text-transform: uppercase; }
 .tabs dt:first-child, .tabs li.section-title:first-child { padding: 0; padding-right: 9px; }
 .tabs dd, .tabs li { display: block; float: left; padding: 0; margin: 0; }
 .tabs dd a, .tabs li a { color: #6f6f6f; display: block; font-size: 14px; height: 40px; line-height: 40px; padding: 0px 23.8px; }
 .tabs dd a:focus, .tabs li a:focus { font-weight: bold; color: #2ba6cb; }
-.tabs dd.active, .tabs li.active { border-top: 3px solid #690A0A; margin-top: -3px; }
-.tabs dd.active a, .tabs li.active a { cursor: default; color: #3c3c3c; background: #F7f7f7; border-left: 1px solid #e6e6e6; border-right: 1px solid #e6e6e6; font-size:17px;}/*; font-weight: bold; }*/
+.tabs dd.active, .tabs li.active { border-top: 3px solid #e4e4e4; margin-top: -3px; }
+.tabs dd.active a, .tabs li.active a { cursor: default; color: #3c3c3c; background: #ef7070; border-left: 1px solid #e6e6e6; border-right: 1px solid #e6e6e6; font-size:17px;}/*; font-weight: bold; }*/
 .tabs dd:first-child, .tabs li:first-child { margin-left: 0; }
 .tabs.vertical { height: auto; border-bottom: 1px solid #e6e6e6; }
 .tabs.vertical dt, .tabs.vertical dd, .tabs.vertical li { float: none; height: auto; }
@@ -1378,7 +1378,7 @@ ul[data-clearing].block-grid > li { height: 80px; }
 /* Top bar */
 .container.top-bar { margin-bottom: 0; }
 
-.top-bar { border-bottom: none; background: #690A0A; }
+.top-bar { border-bottom: none; background: #7ddaff; }
 
 .top-bar .attached { padding: 0 15px; width: 1000px; max-width: 100%; z-index: 0 !important; }
 
@@ -1396,7 +1396,7 @@ ul[data-clearing].block-grid > li { height: 80px; }
 
 .top-bar .small.button { height: auto; top: 10px; }
 
-.top-bar .attached > ul.right > li > a:hover { color: white; border-bottom: 1px solid #000}
+/*.top-bar .attached > ul.right > li > a:hover { color: white; border-bottom: 1px solid #000}*/
 
 .top-bar .attached > ul.right > li.download:hover > a { background-color: #2284A1; }
 
